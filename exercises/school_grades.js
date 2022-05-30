@@ -1,14 +1,14 @@
 /* 
-###Transform school grades 
+  Transform school grades 
 
-Create an algorithm that transforms grades from the numerical 
-system to grade system in A B C type character. 
+  Create an algorithm that transforms grades from the numerical 
+  system to grade system in A B C type character. 
 
-* from 90 - A
-* between 80 - 89 - B
-* between 70 - 79 - C
-* between 60 - 69 - D
-* less 60 - F
+  * from 90 - A
+  * between 80 - 89 - B
+  * between 70 - 79 - C
+  * between 60 - 69 - D
+  * less 60 - F
 
 */
 
