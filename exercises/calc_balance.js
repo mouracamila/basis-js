@@ -6,8 +6,8 @@
 */
 
 const expenses = {
-  input: [1000, 2000],
-  output: [200, 400],
+  input: [1000.678, 123, 1239.23],
+  output: [1000, 250, 3467.89],
 };
 
 function sum(array) {
@@ -24,10 +24,14 @@ function balance() {
   let calc = sum(expenses.input) - sum(expenses.output);
 
   if (calc > 0) {
-    return `positive balance, your balance is ${calc}`;
+    return `positive balance, your balance is $${calc.toFixed(2)}`;
   }
 
-  return `negative balance, your balance is ${calc}`;
+  if (calc == 0) {
+    return `neutro balance, your balance is $${calc.toFixed(2)}`;
+  }
+
+  return `negative balance, your balance is $${calc.toFixed(2)}`;
 }
 
 console.log(balance());
